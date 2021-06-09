@@ -1,55 +1,42 @@
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
-
-body{
-  /*color: #fff;*/
-   font-family: sans-serif;
-}
-nav{
-  display: flex;
-  background: #fff;
-  color: #000;
-  padding: 15px;
-  box-shadow: 3px 3px 8px #288855;;
-}
-
-nav > img{
-  width: 100px;
-  height: 100px;
-  margin-left: 2em;
-}
-nav > h1{
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin: 25px 20px;
-}
-.wrap-main{
-  margin-top: 1em;
+.image-container{
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  font-size: 1em;
+  height: 5em;
+  margin-top: 6em;
 }
-.n-info{
-  font-weight: bold;
+.image-container img{
+  height: 4.5em;
+  width: 85%;
+  padding: 9px;
 }
-table{
-  width: 20%;
+.form-container{
+  width: 100%;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
 }
-.wrap-main > input[type=submit]{
-  width: 5%;
-  margin: 20px 0px 0px 2rem;
-  background: #288855;
-  border-radius: 5px;
-  outline: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  color: #ffffff;
+.main-form{
+  width: 90%;
+  margin: 1rem auto;
+  padding: 25px;
+  box-shadow: 0 0.76875rem 2.4875rem rgb(52 58 64 / 30%),
+  0 1.3375rem 1.70625rem rgb(52 58 64 / 30%),
+  0 0.55rem 0.53125rem rgb(0 0 0 / 5%),
+  0 0.225rem 0.4375rem rgb(52 58 64 / 30%);
+  border-radius: .25rem;
+  border: 1px solid rgba(0,0,0,0.2);
 }
-.wrap-main p{
-  margin-top: 20px;
+.lab1{
+  font-size:1em;
+  color: #5a5a5a;
+  display: block;
+  margin: 1rem auto;
+  font-family: sans-serif;
+}
+.lab1 a{
+  font-style: italic;
 }
