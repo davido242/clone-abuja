@@ -7,12 +7,33 @@
 .image-container{
   width: 100%;
   height: 5em;
-  margin-top: 6em;
+  margin-top: 4em;
 }
 .image-container img{
-  height: 4.5em;
-  width: 85%;
+  height: 5.5em;
+  width: 94%;
   padding: 9px;
+}
+.divider{
+  height: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: #e9ecef;
+}
+.divider2{
+  background: #9c9191;
+  height: 1px;
+  margin-top: 1.5rem;
+}
+.container-wrap{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: 0 0.76875rem 2.4875rem rgb(52 58 64 / 30%),
+  0 1.3375rem 1.70625rem rgb(52 58 64 / 30%),
+  0 0.55rem 0.53125rem rgb(0 0 0 / 5%),
+  0 0.225rem 0.4375rem rgb(52 58 64 / 30%);
+  border-radius: .25rem;
 }
 .form-container{
   width: 100%;
@@ -21,22 +42,75 @@
 }
 .main-form{
   width: 90%;
-  margin: 1rem auto;
-  padding: 25px;
-  box-shadow: 0 0.76875rem 2.4875rem rgb(52 58 64 / 30%),
-  0 1.3375rem 1.70625rem rgb(52 58 64 / 30%),
-  0 0.55rem 0.53125rem rgb(0 0 0 / 5%),
-  0 0.225rem 0.4375rem rgb(52 58 64 / 30%);
-  border-radius: .25rem;
-  border: 1px solid rgba(0,0,0,0.2);
+  margin: 1rem auto 0 auto;
+  padding: 5px;
 }
 .lab1{
   font-size:1em;
   color: #5a5a5a;
   display: block;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   font-family: sans-serif;
 }
 .lab1 a{
   font-style: italic;
+  color: #3f6ad8;
+}
+input{
+  width: 99%;
+  height: 1.8rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  padding: 3px 10px;
+  border: 1px solid #d6d6d6;
+  outline-color: #a6bace;
+}
+.below-form{
+  display: flex;
+  flex-direction: row;
+  background: #e5e8ea;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+button{
+  margin: 1rem auto;
+  width: 29%;
+  background: #17a95d;
+  border-color: #17a95d;
+  border-radius: 5px;
+  border: none;
+  height: 4rem;
+  padding: 1px;
+}
+button a{
+  color: #fff;
+  font-weight: bold;
+}
+
+@media (min-width: 600px){
+  .right-wrap{
+    width: 70%;
+    display: inline-block;
+    position: absolute;
+  }
+  .left-wrap{
+    width: calc(100% - 70%);
+    background: navy;
+    height: 100vh;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+@media (min-width: 920px){
+  .container-wrap{
+    width: 60%;
+  } 
+  .image-container{
+    width: 58%;
+    margin-left: 3rem;
+  }
+  input{
+    height: 3rem;
+  }
 }
