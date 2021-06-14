@@ -51,11 +51,19 @@
   display: block;
   margin: 1.5rem auto;
   font-family: sans-serif;
+  text-align: center;
+}
+.lab2{
+  text-align: left;
 }
 .lab1 a{
   font-style: italic;
   color: #3f6ad8;
 }
+.lab1 a:hover{
+  text-decoration: underline;
+}
+
 input{
   width: 99%;
   height: 1.8rem;
@@ -81,6 +89,10 @@ button{
   border: none;
   height: 4rem;
   padding: 1px;
+  cursor: pointer;
+}
+button:hover{
+  background: #11904e;
 }
 button a{
   color: #fff;
@@ -99,6 +111,9 @@ button a{
     height: 100vh;
     display: inline-block;
     position: relative;
+  }
+  button{
+    height: 3em;
   }
 }
 

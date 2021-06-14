@@ -22,7 +22,7 @@
           <label class="lab1">Please sign in to your account below.</label>
           <input type="text" name="username" placeholder="Application No. / Reg. No. / Matric No." max="12" min="5" required>
           <input type="password" name="password" placeholder="Password here..." max="10" min="8" required>
-          <label class="lab1">New Application? <a href="https://portal.uniabuja.edu.ng/app_guide.php">Click here to Apply</a></label>
+          <label class="lab1 lab2">New Application? <a href="https://portal.uniabuja.edu.ng/app_guide.php">Click here to Apply</a></label>
         </form>
         <div class="below-form">
           <button> <a href="#">Recover Application No.</a></button>
